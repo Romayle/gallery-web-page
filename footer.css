@@ -1,0 +1,70 @@
+:root{
+    --red: #ea3a3a;
+    --white: #fff;
+    --black: #000;
+    --main-color: #161616;
+    --sec-color: #ffffff;
+    --text-color:#000;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    z-index: 2;
+    }
+    
+    .footer .row-smicons{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:rgb(255, 255, 255);
+    font-size:0.8em;
+    }
+    
+    .footer .row-smicons a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    transition:0.1s;
+
+
+    }
+    
+    .footer .row-smicons a:hover{
+    color:var(--red);
+    }
+    
+    .footer .row-smiconsrow-smicons ul{
+    width:100%;
+    
+
+
+    }
+    
+    .footer .row-smicons ul li{
+    display:inline-block;
+    margin:0px 30px;
+    gap: 50px;
+
+    /* filter: invert(); */
+
+
+    }
+    
+    .footer .row-smicons a i{
+    font-size:30px;
+    margin:0% 1%;
+    padding-left: 50px;
+
+    }
+
+    .footer .row-smicons a :hover{
+        color:#15c5c5;
+        transition:0.1s;
+        
+    
+        }

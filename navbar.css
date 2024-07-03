@@ -1,0 +1,87 @@
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    padding: 15px 7px;
+    z-index: 10;
+    background-color: #000000;
+
+}
+
+header.sticky {
+
+    padding: 15px 7px;
+    background-color: #ea3a3a;
+
+}
+
+header.sticky ul li a {
+
+    color: #ffffff;
+
+}
+
+header.sticky .logo {
+
+    transition: 0.2s;
+    
+}
+
+header .logo {
+
+    position: relative;
+
+}
+
+header ul {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul li {
+
+    position: relative;
+    list-style: none;
+
+}
+
+header ul li a {
+
+    position: relative;
+    align-items: center;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: 0.2s;
+
+}
+
+header ul li a:hover {
+
+    /* border-bottom: 2px solid var(--red); */
+    color: var(--red);
+    transition: 0.2s;
+    font-weight: 700;
+
+}
+
+header.sticky ul li a:hover {
+
+    /* border-bottom: 2px solid #000000; */
+    color: #000000;
+    transition: 0.2s;
+
+}

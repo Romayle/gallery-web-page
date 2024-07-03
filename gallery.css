@@ -1,0 +1,255 @@
+.heading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    color: #010000;
+    z-index: 100;
+    transform:translateY(0);
+    transition: all 2s ease 3s;
+}
+
+.heading-up{
+    transform: translateY(-1500px);
+}
+
+#h1{
+    font-size: 200px;
+    opacity: 0;
+    transition: all 1.5s ease 1s;
+}
+
+.sports_logo{
+    width: 125px;
+}
+
+.heading-color{
+    opacity: 1 !important;
+}
+
+
+h1{
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parah1{
+    text-align: center;
+    padding: 0px 100px;
+    font-size: x-large;
+}
+
+.btn {
+    font-size: 15px; /* Change the font size */
+    font-weight: bold;
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Change the cursor to a pointer */
+    height: 50px;
+    width: 120px;
+    background: white;
+    border: 2px black solid;
+    color: #010000; /* Change the font color */
+    margin: 0px 0px 8px 0px;
+  }
+
+  .btn2 {
+    font-size: 20px; /* Change the font size */
+    font-weight: bold;
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Change the cursor to a pointer */
+    height: 50px;
+    width: 120px;
+    color: white; /* Change the font color */
+    background: black;
+    border: 2px white solid;
+    margin: 0px 0px 10px 0px;
+}
+
+  #btn4{
+    font-size: small;
+  }
+  
+  #btn5{
+    font-size: medium;
+  }
+
+  #btn6{
+    font-size: larger;
+  }
+
+.parah2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 31px 59px 34px 59px;
+
+}
+
+#parah2_1{
+    color: black;
+}
+
+#parah2_2{
+    color: white;
+}
+
+.history{
+    padding: 150px 0px;
+}
+
+.background1{
+    background-image: url(background1.jpeg);
+    display: flex;
+    flex-direction: row;
+    background-color: #E1E1E1;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.set1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px red solid;
+    margin: 0px 100px;
+    border-radius: 8px;
+}
+
+/*.background2{
+    background-color: #e9e9e9;
+}*/
+
+h2{
+    font-size: 60px;
+    color: #222;
+    padding: 80px 0px 40px 0px;
+    text-align: center;
+    margin: 0px;
+}
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.gallery{
+
+    left: 0;
+    display: flex;
+    padding: 126px 110px 50px 110px;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0px;
+
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.column3{
+    display: flex;
+    flex-direction: column;
+}
+
+.c1{
+    width: 350px;
+    padding: 10px;
+    height: auto;
+}
+
+.c2{
+    width: 350px;
+    padding: 10px;
+    height: auto;
+}
+
+.c3{
+    width: 350px;
+    padding: 10px;
+    height: auto;
+}
+
+.potrait{
+    width: 400px !important;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
+/*.imgsect{
+    width: 400px;
+    margin: 100px;
+    border: 2px solid black;
+}*/
+
+/*img{
+    width: 400px;
+}*/
+
+
+.pop-on-hover{
+    /*display: none;*/
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+.active{
+    opacity: 1;
+    z-index: 100;
+}
+.content-area{
+    display: flex;
+    margin: 0 100px;
+    border: 2px solid #ea3a3a;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.pop-img-area img{
+    border-radius: 10px;
+    width: 600px;
+    display: block; /* Add this line to remove the gap */
+
+}
+
+.pop-txt-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pop-txt-area p{
+    padding: 30px;
+}
